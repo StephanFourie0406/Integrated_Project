@@ -1,0 +1,82 @@
+D:\Integrated_Project\Integrated Project\bin\Integrated Project.dll.config
+D:\Integrated_Project\Integrated Project\bin\Integrated Project.dll
+D:\Integrated_Project\Integrated Project\bin\Integrated Project.pdb
+D:\Integrated_Project\Integrated Project\bin\roslyn\csc.exe
+D:\Integrated_Project\Integrated Project\bin\roslyn\csc.exe.config
+D:\Integrated_Project\Integrated Project\bin\roslyn\csc.rsp
+D:\Integrated_Project\Integrated Project\bin\roslyn\csi.exe
+D:\Integrated_Project\Integrated Project\bin\roslyn\csi.exe.config
+D:\Integrated_Project\Integrated Project\bin\roslyn\csi.rsp
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Integrated_Project\Integrated Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.AppContext.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Console.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Globalization.Calendars.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.IO.Compression.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Net.Http.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Net.Sockets.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.ValueTuple.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Xml.XPath.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Integrated_Project\Integrated Project\bin\roslyn\vbc.exe
+D:\Integrated_Project\Integrated Project\bin\roslyn\vbc.exe.config
+D:\Integrated_Project\Integrated Project\bin\roslyn\vbc.rsp
+D:\Integrated_Project\Integrated Project\bin\roslyn\VBCSCompiler.exe
+D:\Integrated_Project\Integrated Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Integrated_Project\Integrated Project\bin\Antlr3.Runtime.dll
+D:\Integrated_Project\Integrated Project\bin\EntityFramework.dll
+D:\Integrated_Project\Integrated Project\bin\EntityFramework.SqlServer.dll
+D:\Integrated_Project\Integrated Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Integrated_Project\Integrated Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Integrated_Project\Integrated Project\bin\Newtonsoft.Json.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.Helpers.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.Mvc.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.Optimization.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.Razor.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.Deployment.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.dll
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.Razor.dll
+D:\Integrated_Project\Integrated Project\bin\WebGrease.dll
+D:\Integrated_Project\Integrated Project\bin\EntityFramework.xml
+D:\Integrated_Project\Integrated Project\bin\EntityFramework.SqlServer.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.Helpers.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.Mvc.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.Optimization.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.Razor.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.Deployment.xml
+D:\Integrated_Project\Integrated Project\bin\System.Web.WebPages.Razor.xml
+D:\Integrated_Project\Integrated Project\bin\Newtonsoft.Json.xml
+D:\Integrated_Project\Integrated Project\bin\Antlr3.Runtime.pdb
+D:\Integrated_Project\Integrated Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Integrated_Project\Integrated Project\obj\Debug\Integrated Project.csproj.CoreCompileInputs.cache
+D:\Integrated_Project\Integrated Project\obj\Debug\Integrated Project.csproj.CopyComplete
+D:\Integrated_Project\Integrated Project\obj\Debug\Integrated Project.dll
+D:\Integrated_Project\Integrated Project\obj\Debug\Integrated Project.pdb
