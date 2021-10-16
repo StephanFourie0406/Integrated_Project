@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Integrated_Project.Models;
+using System.Globalization;
 
 namespace Integrated_Project.Controllers
 {
@@ -48,6 +49,8 @@ namespace Integrated_Project.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Name,Email,Cellphone_Number,Location,UserType")] LoginTable loginTable)
         {
+            loginTable.UserType = "User";
+            loginTable.Location = CultureInfo.CurrentCulture.Name;
             if (ModelState.IsValid)
             {
                 db.LoginTables.Add(loginTable);

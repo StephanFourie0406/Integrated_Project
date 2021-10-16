@@ -19,5 +19,6 @@ namespace Integrated_Project.Models
         public string Cellphone_Number { get; set; }
         public string Location { get; set; }
         public string UserType { get; set; }
+        public int Id { get; set; }
     }
 }
