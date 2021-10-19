@@ -45,11 +45,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.90\lib\net461\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -128,29 +125,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Data Access\CRUD.cs" />
+    <Compile Include="Data Access\Helper.cs" />
+    <Compile Include="Data Access\Input_and_Output.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginTablesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\LoginModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LoginModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LoginModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LoginModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LoginModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LoginModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LoginTable.cs">
-      <DependentUpon>LoginModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -163,25 +146,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\LoginModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LoginModel.edmx</DependentUpon>
-      <LastGenOutput>LoginModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\LoginModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LoginModel.edmx</DependentUpon>
-      <LastGenOutput>LoginModel.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\LoginModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>LoginModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\LoginModel.edmx.diagram">
-      <DependentUpon>LoginModel.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -207,10 +173,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\LoginTables\Create.cshtml" />
-    <Content Include="Views\LoginTables\Delete.cshtml" />
-    <Content Include="Views\LoginTables\Details.cshtml" />
-    <Content Include="Views\LoginTables\Edit.cshtml" />
     <Content Include="Views\LoginTables\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
